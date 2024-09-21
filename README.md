@@ -7,7 +7,7 @@ El propósito de LearnGo es ofrecer una plataforma integrada que combine la faci
 
 | **Nombres**            | **funcion**         | **Perfil**                                                 |
 |------------------------|---------------------|------------------------------------------------------------|
-| Silva Merino Jose      | Líder del Proyecto  |            |
+| Silva Merino Josue      | Líder del Proyecto  |            |
 | Campos Siccha Fernando | Integrante Proyecto |            |
 | Ñiquén Cáceres David   | Integrante Proyecto |            |
 
