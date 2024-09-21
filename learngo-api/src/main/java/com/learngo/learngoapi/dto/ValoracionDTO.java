@@ -1,4 +1,4 @@
-package com.aprendeya.aprendeyaapi.dto;
+package com.learngo.learngoapi.dto.model
 
 import lombok.Data;
 
