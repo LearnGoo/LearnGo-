@@ -1,83 +1,66 @@
 ## Introducción
 
-**AprendeYa** es una plataforma web diseñada para facilitar la conexión entre estudiantes y tutores especializados en diversas materias académicas. En AprendeYa, los usuarios pueden crear una cuenta, explorar perfiles de tutores, y reservar sesiones de tutoría personalizadas de manera rápida y eficiente. La plataforma permite a los tutores ofrecer tanto tutorías individuales como grupales, y a los estudiantes seleccionar al tutor que mejor se ajuste a sus necesidades, basándose en comentarios y calificaciones previas.
+**LearnGo** es una aplicación web diseñada para mejorar la eficacia al momento de brindar sesiones de clases particulares y a la vez queremos mejorar el poder recibir estas sesiones. Se busca mejorar la experiencia tanto para el profesor, estudiantes y/o apoderados. Con LearnGo, los usuarios pueden crear una cuenta, iniciar sesión, y realizar el pago de manera segura a través de PayPal para adquirir una sesión de un curso deseado. La aplicación permite a los tutores realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre sesiones de clases, material de clase y reporte de progreso.
 
-Con el propósito de optimizar el rendimiento académico, AprendeYa ofrece una experiencia de aprendizaje adaptada a las necesidades específicas de cada alumno, garantizando un entorno de aprendizaje flexible, accesible y seguro.
+El propósito de LearnGo es ofrecer una plataforma integrada que combine la facilidad de obtener clases de tutoría para así tener un mejor apoyo académico en su día a día , la gestión del catálogo por parte de los tutores, y la personalización de clases virtuales por parte de los usuarios, todo en un entorno seguro y amigable.
+### Integrantes
 
-### Colaboradores del Proyecto
-
-| **Nombre**             | **Rol**             | **Perfil**                                                 |
+| **Nombres**            | **funcion**         | **Perfil**                                                 |
 |------------------------|---------------------|------------------------------------------------------------|
-| Josue Silva Merino     | Líder del Proyecto  | [LinkedIn]()           |
-| Fernando               |                     | [LinkedIn]()           |
-| David Ñiquén Cáceres   |                     | [LinkedIn]()           |
+| Silva Merino Jose      | Líder del Proyecto  |            |
+| Campos Siccha Fernando | Integrante Proyecto |            |
+| Ñiquén Cáceres David   | Integrante Proyecto |            |
 
-### Revisa el Progreso del Proyecto BookHub
+### Revisa el Progreso del Proyecto LearnGo
 
-| **Columna**       | **Descripción**                                                                                                                                    |
-|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Backlog**       | Contiene todas las historias de usuario, tareas y características que deben desarrollarse. Es el listado de todo el trabajo pendiente.              |
-| **En Progreso**   | Incluye las tareas que están actualmente en desarrollo. Visualiza el trabajo en curso para asegurar el flujo continuo de trabajo.                   |
+| **Columna**       | **Descripción**                                                                                                                                                                                                                                                              |
+|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Backlog**       | Contiene todas las historias de usuario, tareas y características que deben desarrollarse grupalmente. Es el listado de todo el trabajo pendiente.                                                                                                                           |
+| **En Progreso**   | Incluye las tareas que están actualmente en desarrollo. Visualiza el trabajo en curso para asegurar el flujo continuo de trabajo.                                                                                                                                            |
 | **Revisión**      | Después de completar una tarea, se mueve aquí para una revisión de código y revisión por pares (peer review). Esta fase incluye la creación de **pull requests** para asegurar que el código cumpla con los estándares de calidad antes de integrarse al proyecto principal. |
-| **En Pruebas**    | Contiene las tareas que han pasado la revisión de código y necesitan pruebas exhaustivas (unitarias, de integración y de aceptación) para garantizar su calidad. |
-| **Hecho**         | Las tareas completamente desarrolladas, revisadas y probadas se mueven aquí, indicando que están listas y finalizadas.                               |
+| **En Pruebas**    | Contiene las tareas que han pasado la revisión de código y necesitan pruebas exhaustivas (unitarias, de integración y de aceptación) para garantizar su calidad.                                                                                                             |
+| **Hecho**         | Las tareas completamente desarrolladas, revisadas y probadas se mueven aquí, indicando que están listas y finalizadas.                                                                                                                                                       |
 
 Mira cómo va avanzando nuestro trabajo visitando el siguiente enlace: [Tablero de Trello](https://trello.com/b/i621bTDB/transaccional).
 
-
-### Funcionalidades de la Aplicación Aprendeya
+### Funcionalidades de la Aplicación LearnGo
 
 #### **Módulo de Gestión de Usuarios**
 
 - **Registro y Gestión de Perfiles:**
-    - Permitir a los usuarios registrarse en la plataforma.
-    - Facilitar la gestión de perfiles, donde los tutores pueden detallar sus especializaciones, disponibilidad y tarifas.
-    - Los estudiantes podrán personalizar sus intereses académicos y preferencias de aprendizaje.
-
-#### **Módulo de Búsqueda y Selección de Tutores**
-
-- **Busqueda Avanzada:**
-    - Los estudiantes podrán buscar tutores según materia, calificaciones, disponibilidad y tarifas.
-    - Visualización de perfiles detallados de tutores, incluyendo credenciales y comentarios de otros estudiantes.
-    - Permitir a los estudiantes filtrar tutores según años de experiencia.
-
-- **Reservas de Sesiones:**
-    - Permitir a los estudiantes reservar sesiones de tutoría individuales o grupales.
-    - Facilitar la selección de fechas y horarios para las sesiones.
-    - Enviar notificaciones por correo electrónico o mensaje de texto para confirmar la reserva de sesiones y recordatorios.
+  - Permitir a los usuarios registrarse en la plataforma.
+  - Permite Editar la informacion de los usuarios.
+  - Facilitar la gestión de perfiles, donde los tutores pueden detallar sus especializaciones, disponibilidad, descripcion general, etc.
+  - Los estudiantes podrán personalizar sus intereses  y preferencias.
 
 #### **Módulo de Pagos en Línea**
 
-- **Pago de Servicios**
-    - Integración de un sistema de pagos en línea para que los estudiantes paguen por las sesiones de tutoría.
-    - Opciones para pagos por sesión o suscripciones a paquetes de tutoría.
-    - Ofrecer múltiples métodos de pago, incluyendo tarjetas de crédito, débito y opciones de pago digital como PayPal.
+- **Pago de Sesiones**
+  - Lo usuario puede contar con un sistema de pagos en Linea.
+  - Diferentes metodos de pago.
+  - Poder Revisar el estado del pago e incluso cuando este finalice, pueden acceder a la informacion de este.
 
-- **Gestión de Transacciones:**
-    - Visualización del historial de pagos y obtención de recibos.
-    - Gestión de métodos de pago.
-    - Permitir a los usuarios acceder a un historial completo de sus transacciones, con detalles de fechas, montos y métodos de pago utilizados.
 
-#### **Módulo de Gestión de Sesiones y Materiales Educativos**
+#### **Gestion de Asistencia y Evaluaciones**
 
-- **Subida y Gestión de Materiales:**
-    - Permitir a los tutores subir documentos, videos y otros materiales educativos.
-    - Facilitar la revisión de materiales por parte de los estudiantes antes o después de las sesiones.
-    - Aceptar diversos formatos de archivos (PDF, Word, Excel, videos)
+- **Asistencia**
+  - Permitir a los tutores subir documentos, videos y otros materiales educativos.
+  - Facilitar la revisión de materiales por parte de los estudiantes antes o después de las sesiones.
+  - Aceptar diversos formatos de archivos (PDF, Word, Excel, videos)
 
-- **Registro de Asistencia:**
-    - Funcionalidad para registrar la asistencia a las sesiones.
-    - Mantenimiento de un historial de interacciones entre estudiantes y tutores.
+- **Evaluacion:**
+  - Funcionalidad para registrar la asistencia a las sesiones.
+  - Mantenimiento de un historial de interacciones entre estudiantes y tutores.
 
 #### **Módulo de Reportes y Evaluación del Progreso**
 
 - **Reportes de Rendimiento:**
-    - Generación de reportes gráficos sobre el progreso de los estudiantes.
-    - Inclusión de estadísticas de asistencia, calificaciones y recomendaciones para mejorar el rendimiento.
+  - Generación de reportes gráficos sobre el progreso de los estudiantes.
+  - Inclusión de estadísticas de asistencia, calificaciones y recomendaciones para mejorar el rendimiento.
 
 - **Feedback y Evaluaciones:**
-    - Evaluación del desempeño del estudiante por parte del tutor.
-    - Provisión de feedback para el desarrollo académico del estudiante.
+  - Evaluación del desempeño del estudiante por parte del tutor.
+  - Provisión de feedback para el desarrollo académico del estudiante.
 
 
 ## Diagramas de la Aplicación
@@ -86,12 +69,13 @@ Para entender mejor la estructura y diseño de la aplicación "Aprendeya", revis
 
 ### Diagrama de Clases
 
-![Diagrama de Clases](diagrama_clase.png)
+![Diagrama de Clases](diagrama_clases.png)
 
 
 ### Diagrama de Base de Datos
 
-![Diagrama de Base de Datos](diagrama_base_datos.png)
+![Diagrama de Base de Datos](diagrama_base_de_datos.png)
+
 
 Este diagrama ilustra el esquema de la base de datos utilizada por la aplicación, mostrando las tablas, columnas, y relaciones entre las entidades.
 
